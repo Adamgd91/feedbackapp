@@ -1,10 +1,16 @@
+import "./index.css";
+
+import FeedbackItem from "./components/FeedbackItem";
 import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <div className="container">
+        <FeedbackItem />
+      </div>
+    </>
   );
 }
 
